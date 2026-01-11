@@ -2,7 +2,7 @@
 
 A Machine Learning-powered web application that automatically categorizes resumes into distinct job domains (e.g., Data Science, Java Developer, HR) using Natural Language Processing (NLP).
 
-🔗 **Live Demo:** [Click Here to launch App](https://YOUR-APP-URL-HERE.streamlit.app) *(Update this after deploying)*
+🔗 **Live Demo:** [Click Here to launch App](https://nlp-resume-screening-app-psdl4ecnsgvf3tzhgn2ced.streamlit.app/)
 
 ## 🛠️ Tech Stack
 *   **Language:** Python
@@ -28,7 +28,7 @@ A Machine Learning-powered web application that automatically categorizes resume
 ## 🔧 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/NLP-Resume-Screening-App.git
+   git clone https://github.com/RTE404/NLP-Resume-Screening-App.git
 Install dependencies:
 
 bash
