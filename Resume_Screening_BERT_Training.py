@@ -36,8 +36,7 @@ from nltk.stem import WordNetLemmatizer
 # lemmatizer = WordNetLemmatizer()
 
 # ===== STEP 1: Load Your Data =====
-# Replace 'UpdatedResumeDataSet.csv' with your actual file
-df = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/ResumeDataset.csv')  # Adjust path if needed
+df = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/ResumeDataset.csv') 
 
 print(f"Dataset shape: {df.shape}")
 print(f"Columns: {df.columns.tolist()}")
@@ -100,7 +99,7 @@ def get_bert_embedding(text, max_length=512):
     return cls_embedding.squeeze()
 
 # Generate embeddings for all resumes (this takes a few minutes)
-print("\nGenerating BERT embeddings (this may take 5-10 minutes)...")
+print("\nGenerating BERT embeddings 
 embeddings = []
 for idx, resume in enumerate(tqdm(df['cleaned_resume'], desc="Embedding progress")):
     embedding = get_bert_embedding(resume)
